@@ -8,11 +8,11 @@ Given a non-empty array of integers, return the result of multiplying the values
 
 
 function grow(x){
+    let multiplied = 1
     for ( let i = 0; i<x.length; i++)
-      {let multiplied = 1
-          multiplied *= x.push[i]
-      } return multiplied
-      }
-     let x = [1, 2, 3, 4]
+      {multiplied *= x[i] } 
+      return multiplied
+      
+    }
 
      // thought i'd do it without the array reduce method
